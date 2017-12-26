@@ -1,0 +1,96 @@
+{
+  "_from": "sceditor@1.5.2",
+  "_id": "sceditor@1.5.2",
+  "_inBundle": false,
+  "_integrity": "sha1-HQr1XrDeAgnnlctd9rtZD9thMtM=",
+  "_location": "/sceditor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "sceditor@1.5.2",
+    "name": "sceditor",
+    "escapedName": "sceditor",
+    "rawSpec": "1.5.2",
+    "saveSpec": null,
+    "fetchSpec": "1.5.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/sceditor/-/sceditor-1.5.2.tgz",
+  "_shasum": "1d0af55eb0de0209e795cb5df6bb590fdb6132d3",
+  "_spec": "sceditor@1.5.2",
+  "_where": "D:\\Server\\XAMPP\\htdocs\\vinabb",
+  "author": {
+    "name": "Sam Clarke",
+    "email": "sam@samclarke.com"
+  },
+  "bugs": {
+    "url": "https://github.com/samclarke/SCEditor/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "brunoais"
+    }
+  ],
+  "deprecated": false,
+  "description": "A lightweight HTML and BBCode WYSIWYG editor.",
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "grunt": "~1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compress": "^1.3.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-qunit": "^1.2.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-dev-update": "^2.0.0",
+    "grunt-githooks": "^0.6.0",
+    "grunt-jscs": "^3.0.1",
+    "grunt-postcss": "^0.8.0",
+    "grunt-saucelabs": "^9.0.0",
+    "grunt-webpack": "^1.0.11",
+    "time-grunt": "^1.3.0",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "emoticons/",
+    "languages/",
+    "development/",
+    "minified/",
+    "src/",
+    "CHANGELOG.txt",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "homepage": "http://www.sceditor.com/",
+  "keywords": [
+    "jquery-plugin",
+    "WYSIWYG",
+    "BBCode",
+    "editor",
+    "jquery",
+    "ui",
+    "ecosystem:jquery"
+  ],
+  "license": "MIT",
+  "name": "sceditor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samclarke/SCEditor.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "1.5.2"
+}
